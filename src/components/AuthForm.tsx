@@ -1,9 +1,9 @@
 import { zodResolver } from '@hookform/resolvers/zod'
-import { SubmitHandler, useForm } from 'react-hook-form'
+import { useForm } from 'react-hook-form'
+import { useNavigate } from 'react-router-dom'
+import instance from '../axios/instance'
 import { User } from '../interfaces/user'
 import AuthSchema from '../schema/AuthSchema'
-import instance from '../axios/instance'
-import { useNavigate } from 'react-router-dom'
 
 type Props = {
   isRegister?: boolean
@@ -17,26 +17,26 @@ function AuthForm({ isRegister }: Props) {
     handleSubmit
   } = useForm<User>({ resolver: zodResolver(AuthSchema) })
 
-  const onSubmit: SubmitHandler<User> = (data) => {
-    ;(async () => {
-      try {
-        if (isRegister) {
-          console.log(data)
-          await instance.post(`/register`, data)
-          if (confirm('Successfully, redirect login page?')) {
-            nav('/')
-          }
-        } else {
-          const result = await instance.post(`/login`, data)
-          localStorage.setItem('user', JSON.stringify(result.data))
-          if (confirm('Successfully, redirect home page?')) {
-            nav('/')
-          }
+  const onSubmit = async (data: User) => {
+    try {
+      if (isRegister) {
+        console.log('day la dang ki')
+        const result = await instance.post(`/register`, data)
+        localStorage.setItem('user', JSON.stringify(result.data))
+        if (confirm('Dang ki thanh cong, chuyen den trang home?')) {
+          nav('/')
         }
-      } catch (error) {
-        console.log(error)
+      } else {
+        console.log('dang nhap')
+        const result = await instance.post(`/login`, data)
+        localStorage.setItem('user', JSON.stringify(result.data))
+        if (confirm('Dang nhap thanh cong, chuyen den trang chu??')) {
+          nav('/')
+        }
       }
-    })()
+    } catch (error: any) {
+      alert(error?.response?.data)
+    }
   }
 
   return (
@@ -50,22 +50,6 @@ function AuthForm({ isRegister }: Props) {
         {errors.email?.message && <p className='text-danger'>{errors.email?.message}</p>}
       </div>
 
-      {isRegister && (
-        <div className='mb-3'>
-          <label htmlFor='userName' className='form-label'>
-            userName
-          </label>
-          <input
-            type='text'
-            step='0.01'
-            className='form-control'
-            id='userName'
-            {...register('userName', { required: true })}
-          />
-          {errors.userName?.message && <p className='text-danger'>{errors.userName?.message}</p>}
-        </div>
-      )}
-
       <div className='mb-3'>
         <label htmlFor='password' className='form-label'>
           password
@@ -73,6 +57,17 @@ function AuthForm({ isRegister }: Props) {
         <input type='text' className='form-control' id='password' {...register('password', { required: true })} />
         {errors.password?.message && <p className='text-danger'>{errors.password?.message}</p>}
       </div>
+
+      {/* {isRegister && (
+        <div className='mb-3'>
+          <label htmlFor='userName' className='form-label'>
+            confirm password
+          </label>
+          <input type='text' className='form-control' id='userName' {...register('userName', { required: true })} />
+          {errors.userName?.message && <p className='text-danger'>{errors.userName?.message}</p>}
+        </div>
+      )} */}
+
       <button type='submit' className='btn btn-primary'>
         {isRegister ? 'Dang ki' : 'Dang nhap'}
       </button>

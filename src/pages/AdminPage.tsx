@@ -12,7 +12,7 @@ const Admin = ({ products, onDelete }: Props) => {
   }
   return (
     <div>
-      <Link to='/product-add' type='button' className='btn btn-success' style={{ margin: '5px' }}>
+      <Link to='/admin/product-add' type='button' className='btn btn-success' style={{ margin: '5px' }}>
         Add
       </Link>
       <table className='table table-bordered'>
@@ -33,7 +33,7 @@ const Admin = ({ products, onDelete }: Props) => {
               <td>{item.price}</td>
               <td>{item.description}</td>
               <td>
-                <Link to={`/product-edit/${item.id}`} type='button' className='btn btn-warning'>
+                <Link to={`/admin/product-edit/${item.id}`} type='button' className='btn btn-warning'>
                   Edit
                 </Link>{' '}
                 <Link to='#' onClick={() => remove(item.id!)} className='btn btn-danger' style={{ margin: '5px' }}>

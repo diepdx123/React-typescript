@@ -7,6 +7,7 @@ import ProductForm from './components/ProductForm'
 import { Product } from './interfaces/product'
 import Admin from './pages/AdminPage'
 import AuthForm from './components/AuthForm'
+import HomePage from './pages/HomePage'
 
 function App() {
   const [products, setProducts] = useState<Product[]>([])
@@ -21,8 +22,6 @@ function App() {
     ;(async () => {
       try {
         if (data.id) {
-          console.log(data.id)
-
           await instance.patch(`/products/${data.id}`, data)
           const newData = await getProducts()
           setProducts(newData)
@@ -32,7 +31,7 @@ function App() {
           console.log('add')
         }
         if (confirm('Thao tac thanh cong, quay lai danhsach')) {
-          nav('/')
+          nav('/admin')
         }
       } catch (error) {
         console.log(error)
@@ -56,9 +55,12 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path='/' element={<Admin products={products} onDelete={handleRemove} />} />
-        <Route path='/product-add' element={<ProductForm onProduct={handleSubmitForm} />} />
-        <Route path='/product-edit/:id' element={<ProductForm onProduct={handleSubmitForm} />} />
+        <Route path='/' element={<HomePage />}></Route>
+        <Route path='/admin'>
+          <Route path='/admin' element={<Admin products={products} onDelete={handleRemove} />} />
+          <Route path='/admin/product-add' element={<ProductForm onProduct={handleSubmitForm} />} />
+          <Route path='/admin/product-edit/:id' element={<ProductForm onProduct={handleSubmitForm} />} />
+        </Route>
         <Route path='/login' element={<AuthForm />} />
         <Route path='/register' element={<AuthForm isRegister />} />
       </Routes>

@@ -1,314 +1,8 @@
 {
   "products": [
     {
-      "id": 7,
-      "title": "test",
-      "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
-      "category": "fragrances",
-      "price": 129.99,
-      "discountPercentage": 18.64,
-      "rating": 2.76,
-      "stock": 41,
-      "tags": [
-        "fragrances",
-        "perfumes"
-      ],
-      "brand": "Chanel",
-      "sku": "K71HBCGS",
-      "weight": 4,
-      "dimensions": {
-        "width": 21.27,
-        "height": 28,
-        "depth": 11.89
-      },
-      "warrantyInformation": "1 week warranty",
-      "shippingInformation": "Ships in 1 month",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 1,
-          "comment": "Disappointing product!",
-          "date": "2024-05-23T08:56:21.619Z",
-          "reviewerName": "Lincoln Kelly",
-          "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Great product!",
-          "date": "2024-05-23T08:56:21.619Z",
-          "reviewerName": "Lincoln Kelly",
-          "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Excellent quality!",
-          "date": "2024-05-23T08:56:21.619Z",
-          "reviewerName": "Lucas Allen",
-          "reviewerEmail": "lucas.allen@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "60 days return policy",
-      "minimumOrderQuantity": 5,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.619Z",
-        "updatedAt": "2024-05-23T08:56:21.619Z",
-        "barcode": "1435582999795",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/1.png",
-        "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/2.png",
-        "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/3.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/thumbnail.png"
-    },
-    {
-      "id": 10,
-      "title": "Gucci Bloom Eau de",
-      "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
-      "category": "fragrances",
-      "price": 79.99,
-      "discountPercentage": 8.9,
-      "rating": 2.69,
-      "stock": 93,
-      "tags": [
-        "fragrances",
-        "perfumes"
-      ],
-      "brand": "Gucci",
-      "sku": "FFKZ6HOF",
-      "weight": 10,
-      "dimensions": {
-        "width": 22.28,
-        "height": 17.81,
-        "depth": 27.18
-      },
-      "warrantyInformation": "No warranty",
-      "shippingInformation": "Ships in 2 weeks",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Great value for money!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Aria Parker",
-          "reviewerEmail": "aria.parker@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Excellent quality!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Natalie Harris",
-          "reviewerEmail": "natalie.harris@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Fast shipping!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Ava Harris",
-          "reviewerEmail": "ava.harris@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "No return policy",
-      "minimumOrderQuantity": 10,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.620Z",
-        "updatedAt": "2024-05-23T08:56:21.620Z",
-        "barcode": "8232190382069",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/1.png",
-        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/2.png",
-        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/3.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/thumbnail.png"
-    },
-    {
-      "id": 14,
-      "title": "Knoll Saarinen Executive Conference Chair",
-      "description": "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.",
-      "category": "furniture",
-      "price": 499.99,
-      "discountPercentage": 15.23,
-      "rating": 4.11,
-      "stock": 47,
-      "tags": [
-        "furniture",
-        "office chairs"
-      ],
-      "brand": "Knoll",
-      "sku": "RKHVJ4FE",
-      "weight": 3,
-      "dimensions": {
-        "width": 16.59,
-        "height": 21.46,
-        "depth": 29.07
-      },
-      "warrantyInformation": "Lifetime warranty",
-      "shippingInformation": "Ships in 3-5 business days",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Very happy with my purchase!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Leah Gutierrez",
-          "reviewerEmail": "leah.gutierrez@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Would buy again!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Nolan Gonzalez",
-          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
-        },
-        {
-          "rating": 2,
-          "comment": "Waste of money!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Stella Morris",
-          "reviewerEmail": "stella.morris@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "30 days return policy",
-      "minimumOrderQuantity": 5,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.620Z",
-        "updatedAt": "2024-05-23T08:56:21.620Z",
-        "barcode": "0726316339746",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/furniture/Knoll%20Saarinen%20Executive%20Conference%20Chair/1.png",
-        "https://cdn.dummyjson.com/products/images/furniture/Knoll%20Saarinen%20Executive%20Conference%20Chair/2.png",
-        "https://cdn.dummyjson.com/products/images/furniture/Knoll%20Saarinen%20Executive%20Conference%20Chair/3.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Knoll%20Saarinen%20Executive%20Conference%20Chair/thumbnail.png"
-    },
-    {
-      "id": 15,
-      "title": "Wooden Bathroom Sink With Mirror",
-      "description": "The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.",
-      "category": "furniture",
-      "price": 799.99,
-      "discountPercentage": 11.22,
-      "rating": 3.26,
-      "stock": 95,
-      "tags": [
-        "furniture",
-        "bathroom"
-      ],
-      "brand": "Bath Trends",
-      "sku": "7OLTIEVO",
-      "weight": 6,
-      "dimensions": {
-        "width": 7.32,
-        "height": 22.64,
-        "depth": 12.37
-      },
-      "warrantyInformation": "6 months warranty",
-      "shippingInformation": "Ships in 3-5 business days",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Highly recommended!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Charlotte Lopez",
-          "reviewerEmail": "charlotte.lopez@x.dummyjson.com"
-        },
-        {
-          "rating": 1,
-          "comment": "Would not recommend!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "William Gonzalez",
-          "reviewerEmail": "william.gonzalez@x.dummyjson.com"
-        },
-        {
-          "rating": 2,
-          "comment": "Not worth the price!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Ava Harrison",
-          "reviewerEmail": "ava.harrison@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "7 days return policy",
-      "minimumOrderQuantity": 1,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.620Z",
-        "updatedAt": "2024-05-23T08:56:21.620Z",
-        "barcode": "7839797529453",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/furniture/Wooden%20Bathroom%20Sink%20With%20Mirror/1.png",
-        "https://cdn.dummyjson.com/products/images/furniture/Wooden%20Bathroom%20Sink%20With%20Mirror/2.png",
-        "https://cdn.dummyjson.com/products/images/furniture/Wooden%20Bathroom%20Sink%20With%20Mirror/3.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Wooden%20Bathroom%20Sink%20With%20Mirror/thumbnail.png"
-    },
-    {
-      "id": 16,
-      "title": "Apple",
-      "description": "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
-      "category": "groceries",
-      "price": 1.99,
-      "discountPercentage": 1.97,
-      "rating": 2.96,
-      "stock": 9,
-      "tags": [
-        "fruits"
-      ],
-      "sku": "QTROUV79",
-      "weight": 8,
-      "dimensions": {
-        "width": 8.29,
-        "height": 5.58,
-        "depth": 12.41
-      },
-      "warrantyInformation": "2 year warranty",
-      "shippingInformation": "Ships in 2 weeks",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Great product!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Logan Lee",
-          "reviewerEmail": "logan.lee@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Great product!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Elena Long",
-          "reviewerEmail": "elena.long@x.dummyjson.com"
-        },
-        {
-          "rating": 1,
-          "comment": "Not as described!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Grayson Coleman",
-          "reviewerEmail": "grayson.coleman@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "60 days return policy",
-      "minimumOrderQuantity": 44,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.620Z",
-        "updatedAt": "2024-05-23T08:56:21.620Z",
-        "barcode": "2517819903837",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/groceries/Apple/1.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Apple/thumbnail.png"
-    },
-    {
       "id": 17,
-      "title": "Beef Steak",
+      "title": "update",
       "description": "High-quality beef steak, great for grilling or cooking to your preferred level of doneness.",
       "category": "groceries",
       "price": 12.99,
@@ -925,7 +619,71 @@
       "price": 12345,
       "description": "hhhhhhhh",
       "id": 46
+    },
+    {
+      "title": "iphone",
+      "price": 33333333333333,
+      "description": "2222",
+      "id": 47
+    },
+    {
+      "title": "them san pham``",
+      "price": 1111111,
+      "description": "123123",
+      "id": 48
     }
   ],
-  "User": []
+  "users": [
+    {
+      "email": "diepdxph32317@fpt.edu.vn",
+      "password": "$2a$10$OvYOpCfn0RFbrxqzi5FmFeQIukXzt/I0qQcsHA7qRq0tubOXkSm4m",
+      "userName": "abc",
+      "id": 1
+    },
+    {
+      "email": "diep1@gmail.com",
+      "password": "$2a$10$oeuL9oGtkh5qXTWnl.0TnOfcnL1q48H6ErJ8cpe0dTJOWFHesioLm",
+      "userName": "12345678",
+      "id": 2
+    },
+    {
+      "email": "dieps1@gmail.com",
+      "password": "$2a$10$1ZFfy8oZwgscIMEmY3s6yOqYZ75oythndQ7vr0CUfBd05k7OuK3IW",
+      "userName": "111111",
+      "id": 3
+    },
+    {
+      "email": "diep2@gmail.com",
+      "password": "$2a$10$n5D/GKcvRGuWwfpOmtgtt.gMj2J6P3QOZ9DJatyLg.MuzsWJYwAAO",
+      "userName": "bo diep",
+      "id": 4
+    },
+    {
+      "email": "diep@gmail.com",
+      "password": "$2a$10$VYA.seFOyjhW08lKoTwT6uPg8SeRi8HkwlCyWreYFc9rt0lxVyOM6",
+      "userName": "bo diep",
+      "id": 5
+    },
+    {
+      "email": "sssss@gmail.com",
+      "password": "$2a$10$KkIkQfpdDaB0OEQPeNOZHe/iMOisFkbgBGbwIr9Ot09SCZ2bWMWIG",
+      "userName": "bo diep",
+      "id": 6
+    },
+    {
+      "email": "diep11@gmail.com",
+      "password": "$2a$10$l/G3Jz.7DyOS.ZOn1CLVOOrLezYWRhj.AnDMKe1.95YgePaO2uETK",
+      "id": 7
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$l1eu7PtXVZaLDt5iCpX6DOQCq5rNxk8X2gxLdPGJ3h6aXYgh9gvL2",
+      "id": 8
+    },
+    {
+      "email": "test1@gmail.com",
+      "password": "$2a$10$74156jFG5Ovm2TCyibcXuOwK7Uuggli04sI5uJ9OgOV/ejiUfvydm",
+      "id": 9
+    }
+  ]
 }
